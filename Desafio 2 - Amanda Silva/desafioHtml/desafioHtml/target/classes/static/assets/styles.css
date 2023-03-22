@@ -1,0 +1,93 @@
+
+/*Estilos do body*/
+body{
+  margin: 0;
+  padding: 0;
+
+}
+.body-background{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+/*Estilo da barra de navegação*/
+nav {
+  justify-content:center !important;
+  align-items:center !important;
+  display:flex !important;
+
+}
+
+.z-9{
+  z-index: 9;
+}
+/*Estilos da header*/
+.container {
+  display: flex !important;
+  margin: auto !important;
+  align-items: flex !important;
+  justify-content: space-between !important;
+  flex-direction: column !important;
+}
+
+.container-header{
+  padding-top: 30px;
+}
+/*Estilo do grupo do formulario*/
+.container-form{
+  align-self: center;
+  padding-bottom: 0%;
+  padding-top: 2%;
+  color: white !important;
+  margin: auto !important;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+/*Estilo dos inputs*/
+.form-control{
+  border-radius: 5px !important;
+}
+/*Estilo do botão de exclusão*/
+.btn-danger{
+  color: white !important;
+  margin-bottom: 3%;
+}
+/*Estilos dos inputs*/
+input:hover {
+  border: 2px solid #b1d3f7;
+}
+/*Estilo dos Botões*/
+.btn-primary {
+  background-color: #0a74bc;
+}
+/*Estilo do botão de pesquisa */
+.btn-search{
+  margin-left: 2px;
+}
+
+
+/*Estilo do texto do botão de excluir usuário*/
+.text-form{
+  color: white !important;
+}
+/*Estilo da tabela*/
+table {
+  width: 100%;
+  max-width: 800px; /* definindo a largura máxima da tabela */
+  overflow-x: auto;
+}
+
+
+/*Estilo do rodapé*/
+footer {
+  margin-top: 8%;
+  margin-bottom: inherit;
+  display:flex;
+  position: fixed;
+  background-color: rgb(52, 52, 52);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: 100%;
+  justify-content:center;
+  align-items:center;
+}
